@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="HTML fundamentals">
+		<title>Table layout </title>
+	
+	</head>
+	<body>
+		 <table width="100%">
+		 
+		 <tr style="background-color: #b5dcb3">
+		 <td> <h1> This is web-page main title <h1> </td>
+		 <td> <a href="page_1.html"> <b>Menu 1 </b></a> </td>
+		 </tr>
+		 
+		 
+		 
+		 <tr height ="200" width="100">
+		 <td colspan="2" valign="top" style="background-color: #eee: border: 4px inset gray"> Select menu item </td>
+		 </tr>
+		 
+		 
+		 <tr> 
+		 <td colspan="2" style="background-color: #b5dcb3"> Copyright © 2017 Svetlana Filimonova</td>
+		 </tr>
+		 
+		 </table>
+	</body>
+
+</html>
