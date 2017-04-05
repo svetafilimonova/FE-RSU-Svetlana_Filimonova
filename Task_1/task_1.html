@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Form </title>
+</head>
+
+<body>
+    <h1>Fill in the form and pess "submit" </h1>
+    <ul>
+        <li> <a href="https://yandex.ru/">Serching </a> </li>
+        <li><a href="https://www.youtube.com/">You Tube </a> </li>
+        <li><a href="https://translate.yandex.ru/?text=card&lang=en-ru">Card </a> </li>
+        <li><a href="https://play.google.com/store/apps">Play </a></li>
+        <li> <a href="http://www.newsru.com/">News </a></li>
+        <li> <a href="https://mail.ru/">Mail</a> </li>
+    </ul>
+    <ol>
+        <li value="7">Searching </li>
+        <li>Card </li>
+        <li>Market </li>
+        <li>News </li>
+        <li>Dictionaries </li>
+        <li>Pictures </li>
+        <li>Yet
+            <ul>
+                <li>Flights </li>
+                <li>Auto </li>
+                <li>Poster </li>
+                <li>Blogs </li>
+            </ul>
+        </li>
+    </ol>
+    <dl>
+        <dt><em>Tag</em> </dt>
+        <dd>Element of Hyper Text Markup Language</dd>
+        <dt><em>The samantic Web </em></dt>
+        <dd>This direction of development of World Wide Web, the aim of which is ti provide information in a form siutable machine
+            processing </dd>
+    </dl>
+    <hr>
+    <table border="1">
+        <caption>Css Generated content of pseudo-elements </caption>
+        <tr>
+            <th>IE </th>
+            <th>Firefox </th>
+            <th>Chrome </th>
+            <th>Safari </th>
+            <th>Opera </th>
+            <th>iOS Safari </th>
+            <th>Opera Mini </th>
+            <th>Android Browser </th>
+            <th>Chrome for Android </th>
+        </tr>
+        <tr>
+            <td rowspan="2"> </td>
+            <td rowspan="4"> </td>
+            <td>27 </td>
+            <td rowspan="3"> </td>
+            <td rowspan="5"> </td>
+            <td rowspan="4"> </td>
+            <td rowspan="5"> </td>
+            <td> </td>
+            <td rowspan="5"> </td>
+        </tr>
+
+        <tr>
+            <td>31 </td>
+            <td> 23</td>
+        </tr>
+        <tr>
+            <td>8 </td>
+            <td> 33</td>
+            <td> 4</td>
+        </tr>
+        <tr>
+            <td> 9</td>
+            <td>34 </td>
+            <td>5.1 </td>
+            <td>4.1 </td>
+        </tr>
+        <tr>
+            <td>10 </td>
+            <td>thirty </td>
+            <td>35 </td>
+            <td>6.1 </td>
+            <td> 6.1</td>
+            <td>4.3 </td>
+        </tr>
+        <tr>
+            <td> eleven</td>
+            <td>31 </td>
+            <td> 36</td>
+            <td>7 </td>
+            <td> 23</td>
+            <td>7.1 </td>
+            <td> 7</td>
+            <td>4.4 </td>
+            <td>36</td>
+
+        </tr>
+        <tr>
+            <td colspan="9"> Method of displaying text or images before or after the given element's contents using the before and after pseudo-elements
+                </td>
+        </tr>
+    </table>
+    <hr>
+    <form action="http://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Personal data </legend>
+            <p><label>Surname <input type="text" name="surname"> </label></p>
+            <p><label>First name <input type="text" name="firstname"> </label> </p>
+            <label>Middle name <input type="text" name="middlename"> </label> <br>
+            <p>You are
+                <input type="radio" name="gender" value="male" checked>male
+                <input type="radio" name="gender" value="female">female
+            </p><br>
+            <p><label> Age <input type="number" name="age" min="18" max="101"> </label></p>
+            <p><label>Country of residence <input list="countries"> </label>
+                <datalist id="countries">
+                    <option value="USA">
+                        <option value="Russia">
+                            <option value="France">
+                                <option value="Germany">
+                                    <option value="Japan">
+                                        <option value="China">
+                </datalist>
+            </p> <br>
+            <p>City
+                <input type="checkbox" name="city" value="ryazan"> Ryazan
+                <input type="checkbox" name="gender" value="moscow"> Moscow
+            </p><br>
+            <label>Photography <input type="file" name="photo" formenctype="multipart/form-data" accept="image/*"> </label>
+            <hr>
+
+            <label>Title 
+<select multiple size="8" name="title"> <optgroup label="Technologies">
+<option value="1">Web Master </option>
+<option value="2">Database administrator </option>
+<option value="3">Computer-aided design </option>
+</optgroup>
+<optgroup label="Finance">
+<option value="4">Economic Planning </option> 
+<option value="5">Management Accounting </option> 
+<option value="6">Budgeting and planning </option> 
+</optgroup>
+</select> 
+</label><br>
+            <p>
+                </label> Salary <input type="range" min="10000" max="100000" step="1000" value="65000">
+                </label>
+            </p><br>
+            <textarea rows="10" cols="70" placeholder="Tell us about yourself..."></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Contact Information </legend>
+            <p><label>Site <input type="url" name="url"> </label></p>
+            <p><label>Email <input type="email" name="email"> </label></p>
+            <p><label>Phone <input type="tel" name="tel"> </label></p>
+        </fieldset>
+        <p><label>Password <input type="password" name="password" required> </label></p>
+        <p><input type="submit" value="Отправить">
+            <input type="reset" value="Сбросить"></p>
+
+    </form>
+
+
+
+
+</body>
+
+</html>
