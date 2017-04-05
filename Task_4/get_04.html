@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form action="http://httpbin.org/get" method="get">
+	<form action="http://httpbin.org/get" enctype="multipart/form-data" method="get">
 		<fieldset>
 			<legend>Personal Data </legend>
 			<table>
@@ -60,7 +60,7 @@
 				</tr>
 				<tr>
 					<td> <label>Photography </label></td>
-					<td> <input type="file" name="photo" formenctype="multipart/form-data" accept="image/*"> </td>
+					<td> <input type="file" name="photo"  accept="image/*"> </td>
 				</tr>
 			</table>
 			<hr>
@@ -119,7 +119,7 @@
 			<input type="reset" value="Сбросить"></p>
 	</form>
 
-	</form>
+
 
 </body>
 

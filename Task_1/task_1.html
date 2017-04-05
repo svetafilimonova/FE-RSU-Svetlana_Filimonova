@@ -41,7 +41,7 @@
             processing </dd>
     </dl>
     <hr>
-    <table border="1">
+    <table style="border:1">
         <caption>Css Generated content of pseudo-elements </caption>
         <tr>
             <th>IE </th>
@@ -107,7 +107,7 @@
         </tr>
     </table>
     <hr>
-    <form action="http://httpbin.org/post" method="post">
+    <form action="http://httpbin.org/post" method="post" enctype="multipart/form-data">
         <fieldset>
             <legend>Personal data </legend>
             <p><label>Surname <input type="text" name="surname"> </label></p>
@@ -132,7 +132,7 @@
                 <input type="checkbox" name="city" value="ryazan"> Ryazan
                 <input type="checkbox" name="gender" value="moscow"> Moscow
             </p><br>
-            <label>Photography <input type="file" name="photo" formenctype="multipart/form-data" accept="image/*"> </label>
+            <label>Photography <input type="file" name="photo" accept="image/*"> </label>
             <hr>
 
             <label>Title 
@@ -149,7 +149,7 @@
 </select> 
 </label><br>
             <p>
-                </label> Salary <input type="range" min="10000" max="100000" step="1000" value="65000">
+                <label> Salary <input type="range" min="10000" max="100000" step="1000" value="65000">
                 </label>
             </p><br>
             <textarea rows="10" cols="70" placeholder="Tell us about yourself..."></textarea>
