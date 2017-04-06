@@ -1,0 +1,91 @@
+h1 {
+  background-color:#b3b300;
+  width: 1500px;            
+  height: 30px;
+  margin: -10px;
+  padding: 60px;  
+}
+
+
+div {
+  height: 400px;
+  background-image: url(4.jpg);
+ background-size:cover;
+  background-repeat: no-repeat;
+  margin:-10px;
+}
+#mid {
+	font-size: 2vw;
+	background-color: rgba(230, 230, 0, .3) ;
+	padding: 2em;
+	margin: 3em;
+	font-family: Times, "Times New Roman", Trendy, serif;
+	text-align:right;
+}
+.class1
+{
+	background-color: #ffffcc;
+		color: grey;
+		padding: 10px;
+		font-size: 2em;
+		font-family: Arial, Verdana, sans-serif;
+		text-align:left;
+		font-style: oblique;
+		font-weight:900;
+		line-height:2em;
+	}
+h2, h3, p.class4
+{
+	color:#666699;
+}
+.class2
+{
+	font-family: "Courier New", modern, monospace;
+	font-style: italic;
+	font-size:30px;
+	background-color:#9999ff;
+	font-variant:small-caps;
+	font-weight:normal;
+	letter-spacing:1em;
+	text-shadow: 3px 3px 10px black;
+
+	
+}
+.class3 {
+	font-weight:bold;
+	text-align:justify;
+	font-size: 18pt;
+	text-transform:lowercase;
+	direction:rtl;
+}
+.class4
+{
+	font-weight:lighter;
+	font-size:1.5em;
+	text-transform:capitalize;
+	text-indent:2em;
+	word-spacing: 2em;
+}
+body
+{
+	background-color:#ffff99;
+}
+h2{
+	text-decoration:underline;
+	line-height:10px;
+	
+}
+h3{
+	text-decoration:line-through;
+	
+}
+.sup{
+	vertical-align:super;
+}
+.sub{
+	vertical-align:sub;
+}
+.pre
+{
+	white-space:pre-line;
+}
