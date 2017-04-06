@@ -12,16 +12,16 @@
 			<legend>Personal Data </legend>
 			<table>
 				<tr>
-					<td> <label>First name  </label> </td>
-					<td> <input type="text" name="fname"> </td>
+					<td> <label for="f" >First name  </label> </td>
+					<td> <input id="f" type="text" name="fname"> </td>
 				</tr>
 				<tr>
-					<td> <label>Middle name </label> </td>
-					<td><input type="text" name="mname"> </td>
+					<td> <label for="mid" >Middle name </label> </td>
+					<td><input id="mid" type="text" name="mname"> </td>
 				</tr>
 				<tr>
-					<td> <label>Surname </label> </td>
-					<td><input type="text" name="surname"> </td>
+					<td> <label for="sur">Surname </label> </td>
+					<td><input id="sur" type="text" name="surname"> </td>
 				</tr>
 
 
@@ -33,12 +33,12 @@
 					<td><input type="radio" name="gender" value="female">female </td>
 				</tr>
 				<tr>
-					<td> <label>Age </label> </td>
-					<td> <input type="number" name="age" min="18" max="101"> </td>
+					<td> <label for="age">Age </label> </td>
+					<td> <input id="age" type="number" name="age" min="18" max="101"> </td>
 				</tr>
 				<tr>
-					<td> <label> Country</label> </td>
-					<td> <input list="countries">
+					<td> <label for="con"> Country</label> </td>
+					<td> <input id="con" list="countries">
 						<datalist id="countries">
 							<option value="USA">
 								<option value="Russia">
@@ -59,15 +59,15 @@
 					</td>
 				</tr>
 				<tr>
-					<td> <label>Photography </label></td>
-					<td> <input type="file" name="photo"  accept="image/*"> </td>
+					<td> <label for="ph">Photography </label></td>
+					<td> <input id="ph" type="file" name="photo"  accept="image/*"> </td>
 				</tr>
 			</table>
 			<hr>
 			<table>
 				<tr>
-					<td><label> Title </label></td>
-					<td><select multiple size="8" name="title"> <optgroup label="Technologies">
+					<td><label for="tit"> Title </label></td>
+					<td><select id="tit" multiple size="8" name="title"> <optgroup label="Technologies">
 <option value="1">Web Master </option>
 <option value="2">Database administrator </option>
 <option value="3">Computer-aided design </option>
@@ -80,8 +80,8 @@
 </select> </td>
 				</tr>
 				<tr>
-					<td><label>Salary </label> </td>
-					<td> <input type="range" min="10000" max="100000" step="1000" value="65000"> </td>
+					<td><label for="sal">Salary </label> </td>
+					<td> <input id="sal" type="range" min="10000" max="100000" step="1000" value="65000"> </td>
 				</tr>
 			</table>
 			<textarea rows="10" cols="70" placeholder="Tell us about yourself..."></textarea>
@@ -93,21 +93,21 @@
 			<legend> Contact Information </legend>
 			<table>
 				<tr>
-					<td> <label>Site  </label>
+					<td> <label for="url">Site  </label>
 					</td>
-					<td> <input type="url" name="url">
-					</td>
-				</tr>
-				<tr>
-					<td> <label>Email  </label>
-					</td>
-					<td> <input type="email" name="email">
+					<td> <input id="url" type="url" name="url">
 					</td>
 				</tr>
 				<tr>
-					<td> <label>Phone  </label>
+					<td> <label for="em">Email  </label>
 					</td>
-					<td> <input type="tel" name="tel">
+					<td> <input id="em" type="email" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td> <label for="tel">Phone  </label>
+					</td>
+					<td> <input id="tel" type="tel" name="tel">
 					</td>
 				</tr>
 			</table>
