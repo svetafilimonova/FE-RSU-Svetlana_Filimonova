@@ -1,0 +1,25 @@
+div h1
+{
+    height: 50px;
+    width: 350px;
+    background-color: #669999 ;
+    color:white;
+    text-align:left;
+    padding:30px;
+    margin:20px 10px 30px 10px;
+
+
+
+
+
+}
+
+div p
+{
+background-color: #b3cccc;
+width: 390px;
+text-align:left;
+margin:20px 10px 30px 10px;
+padding: 10px;
+
+}

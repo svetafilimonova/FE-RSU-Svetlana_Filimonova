@@ -1,0 +1,104 @@
+button {
+    height: 100px;
+    width:100px;
+    background-color:#3498DB;
+    color: white;
+    text-align: center;
+    font-size:1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    border: 2px solid white; 
+    cursor:pointer;
+    }
+
+h1{
+   font-family: 'Lucida Sans', Arial, sans-serif ;
+   text-align:center;
+}
+
+h1:hover:before {
+content:"Some ";
+} 
+
+
+h1:hover:after{
+
+content:" byNobodyRocks"
+}
+
+h1:hover:before, h1:hover:after
+{
+    font-style: italic;
+    font-size: .5em;
+}
+#box{
+    width: 350px;
+    margin: 100px;
+     background: repeating-linear-gradient(45deg,
+      #f6f6f6,
+      #f6f6f6 1px,
+      white 5px,
+      white 10px);
+
+}
+
+
+
+#highlight
+{
+    background-color:#3498DB ;
+    color: white;
+    transition: background-color 2s, color 2s;
+}
+
+#highlight:hover
+{
+background-color: white; 
+color:#3498DB;
+}
+
+#fade:hover
+{
+color: #3498DB;
+opacity:0;
+
+}
+
+#boom:hover
+{
+color:#3498DB;
+opacity:0;
+transform: scale(2,2);
+border:#3498DB;
+}
+
+
+#focus:hover
+{
+border-width:17px;
+}
+
+#rotate:hover
+{
+transform: rotate(90deg);
+}
+
+#knit:hover
+{
+transform: scale(1,0);
+}
+
+#shrink:hover
+{
+transform: scale(0,0);
+}
+
+#squeeze:hover
+{
+transform: scale(2,0);
+}
+
+#deform:hover
+{
+transform: skew(45deg,45deg);
+}

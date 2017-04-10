@@ -1,0 +1,16 @@
+div
+{
+    background-color: #d1e0e0;
+    width:97%;
+    margin:20px 5px 5px 5px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width:500px) {
+
+    div{
+        width:auto;
+        
+    }
+}
