@@ -1,0 +1,41 @@
+#header{
+    background-color: yellow;
+    height: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 20px;
+    font-weight: lighter;
+    position: relative;
+  
+    
+    
+}
+
+#header:after {
+    content: "";
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 30px;
+    border-top: 30px solid yellow;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+}
+
+
+#text {
+
+color: #99ffcc;
+padding: 5px;
+margin-top: 10px;
+
+}
+
+#container {
+
+border: 10px solid #99ffcc ;
+border-radius: 5px;
+
+}

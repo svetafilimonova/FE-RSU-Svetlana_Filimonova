@@ -1,0 +1,35 @@
+.arrow-box {
+
+    color: white;
+    background-color: cornflowerblue;
+    border: 5px solid lightskyblue;
+    position: relative;
+    margin: 100px;
+    width:300px; 
+    height:100px ;
+    padding: 5px;
+   /*overflow: auto;*/
+}
+
+.arrow-box:before {
+content: "";
+/*width: 0;
+height:0;*/
+border: 50px solid transparent ;
+border-bottom-color: lightskyblue;
+position: absolute;
+bottom: 100%;
+left:105px;
+
+}
+
+.arrow-box:after {
+
+ content:"";
+ bottom: 100%;
+ border: 45px solid transparent ;
+ border-bottom-color: cornflowerblue;
+ left:110px;
+ position:absolute;
+
+}

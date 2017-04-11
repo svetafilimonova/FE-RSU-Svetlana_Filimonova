@@ -1,0 +1,66 @@
+.box {
+    width: 400px;
+    height: 100px;
+    background-color: mediumpurple;
+    color: rebeccapurple;
+    padding: 10px;
+    margin: 100px; 
+    box-shadow: 0 0 0 3px lightgray;
+    position:relative;
+    border:1px solid mediumpurple;
+    border-radius:2px 5px 5px 5px; 
+    z-index: 5;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+
+
+.cap {
+
+ background-color: mediumpurple;
+    position: absolute;
+    color: rebeccapurple;
+    bottom: 626px;
+    left:108px;
+    width: 60px;
+    height:20px;
+   /*border: 1px solid rebeccapurple;*/
+    border-radius: 5px 5px 0 0;
+    z-index: 10;
+    box-shadow: 0 0 0 3px lightgray, 0 0 0 1px rebeccapurple inset;
+    clip: rect(-3px,65px,20px,-3px);
+
+
+}
+
+/*.cap:before{
+    content:"";
+  box-shadow: 0 -3px 3px lightgray;
+    position: absolute;
+    /*bottom: 10px;
+    width: 60px;
+    height: 20px;
+    background-color: lightgray;
+    left: 0px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 0 3px lightgray;*/
+    /*z-index: -1;
+    /*position:relative;
+
+
+
+}*/
+
+/*.arrow-box:after {
+    content:"Caption";
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    border:1px solid gray; 
+    position: absolute;
+    bottom: 100%;
+    left:0;
+    width: 60px;
+    height:20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}*/
