@@ -1,0 +1,205 @@
+img {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px;
+    /*margin: 10px;*/
+    width: 300px;
+    height: 315px;
+    box-sizing: border-box;
+    position: relative;
+   /* opacity: .25;*/
+   /* z-index: -1;*/
+   
+    
+
+}
+
+.float 
+{
+    width: 1026px;
+    margin: 10px;
+    position: relative;
+    border: 1px solid gray;
+    
+}
+
+button {
+    background-color: white;
+    border:1px solid gray;
+    width: 140px;
+    height: 40px;
+    /*margin-right: 10px;*/
+    
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    top:100%;
+    color: gray;
+    /*position: relative;*/
+    /*position: absolute;*/
+   
+
+ 
+}
+
+p {
+
+width: 300px;
+height: 315px;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: #fff;
+opacity: 0;
+position: absolute;
+
+}
+
+img:hover:before { 
+
+ content: "";
+ width: 300px;
+ height: 315px;
+ background: black;
+ z-index: 1000;
+
+/*box-shadow:0 0 0 157px rgba(0, 0, 0, 0.3) inset;*/
+
+/*opacity:1;*/
+      
+}
+
+
+
+span {
+    color: limegreen; 
+}
+
+
+
+.details:hover {
+    background-color: limegreen;
+}
+
+.demo:hover {
+    background-color: limegreen;
+}
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6  {
+
+position: relative;
+width: 300px;
+height: 370px;
+margin: 20px;
+border:1px solid gray;
+float: left;
+
+}
+
+
+
+.details {
+float:left;
+margin: 10px 5px 0 0;
+
+}
+
+.demo {
+
+float:right;
+margin: 10px 0 0 5px;
+
+}
+
+
+.block {
+
+    width: 1034px;
+    margin: 10px;
+    position: relative;
+    border: 1px solid gray;
+
+}
+
+.bpic1,.bpic2,.bpic3,.bpic4,.bpic5,.bpic6  {
+
+position: relative;
+width: 300px;
+height: 370px;
+margin: 20px;
+border:1px solid gray;
+display: inline-block;
+
+}
+
+.bdetails {
+
+margin:10px 5px 0 0;
+
+}
+
+.bdemo {
+
+
+margin: 0 0 0 10px;
+
+}
+
+.bdetails:hover  {
+    background-color: limegreen;
+
+}
+
+.bdemo:hover {
+    background-color: limegreen;
+}
+
+
+
+.flex 
+{
+    width: 1026px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    
+}
+
+.fpic1,.fpic2,.fpic3,.fpic4,.fpic5,.fpic6  {
+
+position: relative;
+width: 300px;
+height: 370px;
+margin: 20px;
+border:1px solid gray;
+justify-content: space-around;
+/*display: flex;*/
+
+} 
+
+
+
+.fdetails {
+
+margin:10px 5px 0 0;
+
+}
+
+.fdemo {
+
+
+margin: 0 0 0 10px;
+
+}
+
+
+.fdetails:hover  {
+    background-color: limegreen;
+
+}
+
+.fdemo:hover {
+    background-color: limegreen;
+}
