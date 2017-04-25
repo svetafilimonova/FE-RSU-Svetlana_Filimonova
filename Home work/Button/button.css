@@ -15,6 +15,7 @@ background: linear-gradient(to top, #ccccff 0%,#8080ff 50%,#ccccff 100%);
 
 
 
+
 }
 
 #button:after
@@ -30,7 +31,7 @@ right: 1px;
 bottom: 1px;
 position: absolute;
 box-shadow: none;
--webkit-transition:box-shadow ease 3s .5s;
+
 
 
 }
@@ -38,6 +39,7 @@ box-shadow: none;
 #button:hover{
 
 box-shadow:-3px 0 10px #cce6ff, 0 3px 10px #cce6ff, 3px 0 10px #cce6ff, 0 -3px 10px #cce6ff;
+transition:box-shadow 3s ease ;
 
 }
 
