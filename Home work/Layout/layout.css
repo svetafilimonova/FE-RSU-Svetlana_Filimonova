@@ -1,0 +1,435 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******/
+@font-face {
+    font-family:fontawesome-webfont; /* Имя шрифта */
+    src: url(Fonts/fontawesome-webfont.eot); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family:Proxima-Nova-Bold; 
+    src: url(Fonts/Proxima-Nova-Bold.otf); 
+   }
+  @font-face {
+    font-family:Proxima-Nova-Regular; 
+    src: url(Fonts/Proxima-Nova-Regular.otf); 
+   }
+
+div {
+    
+}
+   .top {
+       background: #2f364a;
+
+   }
+
+   .top .topright {
+       float: right;
+       width: 440px;
+   }
+
+   .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top .topuser {
+    background: #15a4fa;
+    display: inline-block;
+    width: 161px;
+    padding: 5px 0;
+   
+}
+
+.top .topuser img {
+ margin-left: 10px;
+}
+
+.top .topuser a{
+
+    color: white;
+    font-size: 13px;
+    font-family:Proxima-Nova-Regular; 
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top .topuser i {
+    color: white;
+    position: relative;
+    bottom: 8px;
+    
+
+}
+
+.top .toplink {
+    width: 275px;
+    display: inline-block;
+}
+
+.top .toplink a {
+font-family:Proxima-Nova-Regular; 
+font-size: 13px;
+color: #78829d;
+text-decoration: none;
+margin-left: 18px;
+position: relative;
+bottom: 10px;
+
+
+}
+.top .toplink a .fa-circle:before {
+    color: #202737;
+    font-size: 5px;
+    margin-left: 18px;
+}
+/*конец хедера*/
+
+.body .navigation {
+    width:200px;
+    background: #19202e;
+    display: inline-block;
+    min-height: 300px;
+    float:left;
+            
+}
+
+.body .content {
+
+    width:1063px;
+     /*display: inline-block;*/
+     min-height: 300px;
+     float:left;
+     margin: 0 0;
+     padding: 0 0;
+}
+
+.center{
+    width:1263px;
+    margin: 0 auto;
+}
+
+.navigation .button {
+    background: #1f2637;
+    padding: 35px 0;
+    border-bottom: 1px solid #141824; 
+
+}
+
+.navigation .button a {
+    text-decoration: none;
+    color: white;
+    background: #f2795a;
+    border-radius:5px;
+    font-size:13px;
+    font-family:Proxima-Nova-Bold;
+    padding: 15px 0px; 
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    text-align: center;
+
+
+}
+
+.navigation .button a i {
+position: relative;
+right: 20px;
+}
+
+.navigation .menu nav a {
+
+color: #78829d;
+font-family: Proxima-Nova-Regular;
+font-size: 13px;
+display: block;
+padding: 12px 0;
+padding-left: 20px;
+text-decoration: none;
+
+
+}
+
+.navigation .menu nav i {
+
+    margin-right: 10px;
+} 
+
+.navigation .menu {
+    background: #1f2637;
+    border-bottom: 1px solid #141824; 
+    border-top: 1px solid #282f41;
+    margin-top:3px;
+}
+
+.navigation .circle nav a {
+
+color: #78829d;
+font-family: Proxima-Nova-Regular;
+font-size: 13px;
+display: block;
+padding: 12px 0;
+padding-left: 20px;
+text-decoration: none;
+
+
+}
+
+.navigation .menu nav a:hover {
+    background: #15a4fa;
+    color: white;
+
+}
+
+
+
+.navigation .circle nav i {
+
+    margin-right: 10px;
+    font-size: 7px;
+    position: relative;
+    bottom: 2px;
+} 
+
+
+
+.navigation .circle {
+    background: #1f2637;
+    border-bottom: 1px solid #141824; 
+    border-top: 1px solid #282f41;
+    margin-top:3px;
+    padding: 13px 0;
+}
+
+.navigation .circle nav a:nth-child(1) i {
+    color: #e64c66;
+}
+
+.navigation .circle nav a:nth-child(2) i {
+    color: #ffab00;
+}
+
+.navigation .circle nav a:nth-child(3) i {
+    color: #00bfdd;
+}
+
+.navigation .circle nav a:nth-child(4) i {
+    color: #7874cf;
+}
+
+.navigation .circle nav a:hover i {
+    background: #15a4fa;
+    color: white;
+    
+}
+.navigation .circle nav a:hover {
+    background: #15a4fa;
+    color: white;
+    
+}
+
+.navigation .add
+{
+    background: #1f2637;
+    border-top: 1px solid #282f41;
+    margin-top:3px;
+    padding: 13px 0;
+    min-height:100%;
+    padding-top: 25px;
+}
+
+.navigation .add .clock p {
+
+color: #3c4559;
+font-family: Proxima-Nova-Regular;
+font-size: 12px;
+width: 140px;
+display: inline-block;
+margin-bottom: 40px;
+line-height: 18px;
+
+}
+
+.navigation .add .clock p a{
+    text-decoration: none;
+    color: #677b92;
+
+
+}
+.navigation .add .clock div i{
+    color: #677b92;
+    
+    padding: 0 10px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 60px;
+
+
+
+}
+
+.navigation .add .clock div {
+    display: inline-block;
+
+}
+
+.navigation .add .clock p span {
+    display: block;
+    margin-top: 10px;
+}
+
+.content .topcontent  {
+
+    background: #eef1f7;
+}
+
+.content .topcontent .topheader h1 {
+
+    font-size: 22px;
+    font-family: Proxima-Nova-Regular;
+    color: #444c63;
+    padding: 25px 20px;
+}
+
+.content .topcontent .search a {
+    font-size: 12px;
+    font-family: Proxima-Nova-Regular;
+    color: #8c97b2;
+    text-decoration: none;
+   padding: 2px 8px;
+   margin-right: 10px;
+   position: relative;
+   top:11px;
+
+
+
+}
+
+.content .topcontent .search {
+    
+    border-top: 1px solid #dadfea;
+    border-bottom: 1px solid #dadfea;
+    padding: 8px 0px;
+    padding-left: 20px;
+}
+
+.content .topcontent .search .active {
+    background: #97b3ce;
+    color: white;
+    border-radius: 10px;
+     
+} 
+
+.content .topcontent .search  form {
+    display: inline-block;
+    float: right;
+}
+
+.content .topcontent .search a:hover {
+    background: #97b3ce;
+    color: white;
+    border-radius: 10px;
+     
+} 
+
+.content .topcontent .search input {
+border: 0px;
+background: #fff;
+color:#a3acc1;
+font-size: 13px;
+font-family: Proxima-Nova-Regular;
+height: 30px;
+ border-radius: 10px;
+
+    
+}
+/*::-webkit-input-placeholder {color:#c0392b;}
+::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+/*:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+/*:-ms-input-placeholder      {color:#c0392b;}*/
+.content .topcontent .search input[placeholder] {
+    
+color:#a3acc1;
+font-size: 13px;
+font-family: Proxima-Nova-Regular;
+}
+
+.content .topcontent .search .key {
+    border:1px solid #c7cddb ;
+    border-radius: 10px;
+    padding: 0px 0px;
+    width: 400px;
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.content .topcontent .search .key input:nth-child(1) {
+        width: 290px;
+        padding-left: 20px;
+}
+
+.content .topcontent .search .key input:nth-child(3) {
+      
+    position: relative;
+    left: 32px; 
+    opacity: 0;
+}
+
+
+.content .topcontent .search .key i {
+    position: relative;
+    left:76px;
+    color: #8c97b2;
+}
