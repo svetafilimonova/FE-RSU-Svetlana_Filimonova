@@ -1,12 +1,18 @@
 #header{
-    background-color:#ffff66;
-    height: 30px;
-    font-size: 25px;
+    background-color:#FFC100;
+	background:linear-gradient(to top,#FFC100,#FFD500);
+    /*height: 15px;*/
+	width:283px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
-    padding: 20px;
+    padding: 8px;
     font-weight: lighter;
     position: relative;
+	bottom: 10px;
+	right:10px;
+	color: black;
+    text-align: left;
   
     
     
@@ -17,25 +23,50 @@
     width: 0;
     height: 0;
     top: 100%;
-    left: 30px;
-    border-top: 30px solid #ffff66;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    left: 10px;
+    border-top: 10px solid #ffbb33;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
     position: absolute;
+	
 }
 
 
 #text {
 
-color: #5dd5d5;
-padding: 5px;
-margin-top: 10px;
+color: #60808D;
+/*margin-top: 10px;*/
+position: absolute;
+width:300px;
+height: 135px;
+background-color: #EDECDE;
+left: 6px;
+top:6px;
+padding:10px;
+/*box-shadow:0 3px 15px #1e7b7b;*/
+border: 1px solid #35C3AE ;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+vertical-align: middle;
+text-align: left;
+
 
 }
 
 #container {
 
-border: 10px solid #5dd5d5;
+border: 1px solid #35C3AE ;
 border-radius: 5px;
+position: relative;
+background-color: #A0DFD1;
+width: 315px;
+height:150px;
+/*box-shadow:0 3px 15px #1e7b7b;*/
 
+}
+
+.paragraph 
+{
+    position: absolute;
 }

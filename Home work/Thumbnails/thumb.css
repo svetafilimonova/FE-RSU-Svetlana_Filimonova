@@ -1,9 +1,58 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.img {
+
+
+    /*padding: 10px;*/
+    margin: 0 auto;
+    margin: 13px 0px 10px 0px;
+    display: inline-block;
+
+    width: 90%;
+    height: 315px;
+    box-sizing: border-box;
+    position: relative;
+   /* opacity: .25;*/
+   /* z-index: -1;*/
+   background: url(th1.png) no-repeat;
+   background-size: cover;
+
+   
+    
+
+}
+
+.img2{
+      /*padding: 10px;*/
+    margin: 0 auto;
+    margin: 13px 0px 10px 0px;
+    display: inline-block;
+
+    width: 90%;
+    height: 315px;
+    box-sizing: border-box;
+    position: relative;
+   /* opacity: .25;*/
+   /* z-index: -1;*/
+   background: url(th2.png) no-repeat;
+   background-size: cover;
+
+}
+
 img {
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 10px;
-    /*margin: 10px;*/
-    width: 300px;
+
+
+    /*padding: 10px;*/
+    margin: 13px 0px 10px 0px;
+    width: 90%;
     height: 315px;
     box-sizing: border-box;
     position: relative;
@@ -13,13 +62,26 @@ img {
     
 
 }
+.image {
+border: 1px solid gray;
+text-align: center;
+border-radius: 4px;
+}
+
+.container {
+
+    width: 1028px;
+    margin: 0 auto;
+
+}
 
 .float 
 {
     width: 1026px;
     margin: 10px;
     position: relative;
-    border: 1px solid gray;
+  /*  border: 1px solid gray;
+*/
     
 }
 
@@ -50,7 +112,7 @@ font-size: 30px;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 color: #fff;
-opacity: 0;
+/*opacity: 0;*/
 position: absolute;
 
 }
@@ -91,7 +153,7 @@ position: relative;
 width: 300px;
 height: 370px;
 margin: 20px;
-border:1px solid gray;
+/*border:1px solid gray;*/
 float: left;
 
 }
@@ -117,7 +179,7 @@ margin: 10px 0 0 5px;
     width: 1034px;
     margin: 10px;
     position: relative;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
 
 }
 
@@ -127,7 +189,7 @@ position: relative;
 width: 300px;
 height: 370px;
 margin: 20px;
-border:1px solid gray;
+/*border:1px solid gray;*/
 display: inline-block;
 
 }
@@ -163,7 +225,7 @@ margin: 0 0 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid gray;
+   
     
 }
 
@@ -173,7 +235,6 @@ position: relative;
 width: 300px;
 height: 370px;
 margin: 20px;
-border:1px solid gray;
 justify-content: space-around;
 /*display: flex;*/
 
@@ -202,4 +263,35 @@ margin: 0 0 0 10px;
 
 .fdemo:hover {
     background-color: limegreen;
+}
+
+.shadow {
+width: 100%;
+height: 100%;
+position: absolute;
+background: rgba(0,0,0,0.5);
+top:0px;
+display: none;
+
+}
+
+.shadow p {
+    color: white;
+    width:100%;
+    position: relative;
+    top:81px;
+
+
+    
+
+}
+
+.grey{
+    color: #85847F;
+}
+
+.image:hover .shadow {
+
+    display: block;
+
 }

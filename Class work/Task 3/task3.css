@@ -1,38 +1,54 @@
 .box {
-    width: 400px;
-    height: 100px;
-    background-color: mediumpurple;
-    color: rebeccapurple;
+    width: 880px;
+    height: 250px;
+    background-color: #A68BDD;
+    color: #885BCF;
     padding: 10px;
     margin: 100px; 
     box-shadow: 0 0 0 3px lightgray;
     position:relative;
     border:1px solid mediumpurple;
-    border-radius:2px 5px 5px 5px; 
-    z-index: 5;
-    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+    border-radius:0 10px 10px 10px; 
+    z-index:0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 3px 15px gray;
 }
 
 
 
 .cap {
 
- background-color: mediumpurple;
+ background-color: #A68BDD;
     position: absolute;
-    color: rebeccapurple;
-    bottom: 120px;
+    color: #885BCF;
+    bottom: 269px;
     left:-1px;
-    width: 60px;
-    height:20px;
-   /*border: 1px solid rebeccapurple;*/
-    border-radius: 5px 5px 0 0;
+    width: 110px;
+    height:40px;
+   border: 1px solid #785DAF;
+   /*border-bottom: 3px solid #785DAF;*/
+    border-radius: 10px 10px 0 0;
     z-index: 10;
-    box-shadow: 0 0 0 3px lightgray, 0 0 0 1px rebeccapurple inset;
-    clip: rect(-3px,65px,20px,-3px);
+    box-shadow: 0 3px 15px gray, 0 -2px 2px #785DAF inset;
+    clip: rect(-3px,115px,42px,-3px);
+    font-size: 20px;
+    font-weight: bold;
+    
+    /*text-align: center;
+    vertical-align: middle;*/
 
 
 }
 
+span {
+
+   text-align: center;
+    vertical-align: middle; 
+    padding: 10px;
+    position: absolute;
+
+}
 /*.cap:before{
     content:"";
   box-shadow: 0 -3px 3px lightgray;
